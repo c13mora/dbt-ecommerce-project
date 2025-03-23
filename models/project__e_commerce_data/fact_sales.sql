@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('test', 'fact_sales')}}

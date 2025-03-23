@@ -6,11 +6,15 @@ sources:
     database: test
     schema: public
     tables:
-      - name: customers
+      - name: dim_address
         description: "List of customers."
-      - name: order_items
-        description: "Each item specified for each order."
-      - name: orders
-        description: "List of orders."
-      - name: products
-        description: "List of products."
+      - name: dim_customer
+        description: "Dimension table with customer information."
+      - name: dim_date
+        description: "Dimension table with date information."
+      - name: dim_location
+        description: "Dimension table with location details."
+      - name: dim_product
+        description: "Dimension table with product information."
+      - name: fact_sales
+        description: "Fact table with transactional (sales) data."

@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: test
+    description: "Test database with films and actors data."
+    database: test
+    schema: public
+    tables:
+      - name: customers
+        description: "List of customers."
+      - name: order_items
+        description: "Each item specified for each order."
+      - name: orders
+        description: "List of orders."
+      - name: products
+        description: "List of products."
